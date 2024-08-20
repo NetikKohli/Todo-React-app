@@ -1,44 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{  font-family: 'Poppins', sans-serif;
-    background: #7038fd;
-    
+    margin: 0;
 }
 .main{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:auto;   
-}
+    flex-direction: column;
+   
+    }
 .h{
     color: white;
-    background-color: rgb(48, 48, 199);
-    width: 60%;
-    height: 10vh;
+    text-shadow: 3px 5px 60px #000000;
+    background-color: crimson;
+    width: 105%;
+    height: 50%;
     text-align: center;
-    
+    font-weight:bold;
+    font-size: 3vw;
+    border-radius: 5.5vw;
+    align-content: center;
 }
 .wrapper{
-    background: #1A1A40;
-    padding: 2rem;
+    background-image:url("../background_image.avif"); 
+    background-size: cover;
+    background-position: left;
+    padding-top: 2rem;
     display: flex;
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: auto;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    border-radius: 25px; 
+    margin-top: 5px;
+    padding-bottom: 60vh;
+    border-radius: 25px;
 }
 .input{
-    background-color: whitesmoke;
-    width: 60vh;
-    height: 4vh;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    font-size: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 13px;
+    border-radius: 10px;
+    height: auto;
+    resize: both;
+    overflow: visible;
+    border: none;
     margin: 10px;
 }
+.todoadd{
+    background-color: #00ff9d80;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(16px);
+    width: 95%;
+    
+    margin-top: 50px;
+    padding: 2% 1%;
+    flex-direction: row;
+}
 #addButton{
-    background-color: rgb(255, 140, 0);
-    color: azure;
-    width: 20%;
-    font-family: 'Popins';
-    height: 9vh;
+    background-color: #035e3db6;;
+    color: white;
+    width: 30%;
+    height: auto;
+    border: #052419;
+    text-shadow: 3px 3px 15px #000000;
+    border-radius: 15px;
+    box-shadow: #00000069 10px 10px 70px;
+    font-size: 2vmax;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+.todoParent{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    background-color: rgba(237, 250, 212, 0.205);
+    justify-content: space-between;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    margin-top: 50px;
+    border: #acff27 2px solid;
+    align-items: center;
+    padding: 1%;
+    padding-left: 5%;
+    width:90%;
+    height: auto;
+}
+.todo{
+    width: 80%;
+    height: 50%;
+    padding-left: 8px;
+}
+
+.todoParent button{
+    width: 15%;
+    font-size: xxx-large;
+    background-color: #aef1ede1;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #000000cc ,inset -20px -20px 60px #ffffffcc;
+}
+
+
+@media (max-width:600px) {
+    .h{ text-shadow: none;
+        font-size: 7vw;
+        padding: 7px 1px;
+    }
+    .wrapper{
+        width: 90%;
+    }
+    .input{
+        font-size: medium ;
+    }
+    #addButton{
+        height: 6vh;
+    }
+    .todoParent button{
+        width: 30%;
+        height: 7.5vh;
+        margin: 4px;
+    }
 }
