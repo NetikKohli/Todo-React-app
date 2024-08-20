@@ -4,7 +4,7 @@ import TodoList from './screens/TodoList';
 
 function App() {
   return (
-    <TodoList/>
+    <div>App</div>
   );
 }
 

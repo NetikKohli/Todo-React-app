@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './TodoListCss.css'
 import { MdDeleteSweep } from "react-icons/md";
+import { Link } from 'react-router-dom';
 function TodoList() {
   const [list, setList] = useState([])
   const [item, setItem] = useState("")
@@ -38,9 +39,9 @@ function TodoList() {
             </div>
           ))}
       
-
+        
       </div>
-
+      <Link to='/' >Go To Home</Link>
     </div>
   )
 }
