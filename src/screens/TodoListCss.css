@@ -50,12 +50,12 @@
     margin: 10px;
 }
 .todoadd{
-    background-color: #00ff9d80;
+    background-color: #b6cfc675;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(20px);
     width: 95%;
     
     margin-top: 50px;
@@ -63,15 +63,15 @@
     flex-direction: row;
 }
 #addButton{
-    background-color: #035e3db6;;
+    background-color: #0736cf;
     color: white;
-    width: 30%;
+    width: 22%;
     height: auto;
-    border: #052419;
-    text-shadow: 3px 3px 15px #000000;
+    border: #04AA6D;
+    text-shadow: 1px 2px 5px #000000;
     border-radius: 15px;
-    box-shadow: #00000069 10px 10px 70px;
-    font-size: 2vmax;
+    box-shadow: #00000091 10px 10px 20px,inset -5px -4px 5px #ffffff77;
+    font-size: 2.2vmax;
     padding: 10px 0px;
     font-weight: bold;
 }
@@ -82,10 +82,10 @@
     font-family: 'Poppins',sans-serif;
     font-weight: 700;
     font-size: xx-large;
-    background-color: rgba(237, 250, 212, 0.205);
+    background-color: rgba(255, 255, 255, 0.123);
     justify-content: space-between;
     border-radius: 15px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     margin-top: 50px;
     border: #acff27 2px solid;
     align-items: center;
@@ -127,6 +127,7 @@
     .todoParent button{
         width: 30%;
         height: 7.5vh;
+        font-size: medium;
         margin: 4px;
     }
 }

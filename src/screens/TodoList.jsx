@@ -24,7 +24,7 @@ function TodoList() {
   return (
     <div className='main'>
       <div className='wrapper'>
-        <h1 className='h'>TODO List React App</h1>
+        <h1 className='h'>Todo List React App</h1>
         <div className='todoadd'>
           <input class='input' type="text" value={item} onChange={(e) => { setItem(e.target.value) }} placeholder='What is your target?' />
           <button id='addButton' onClick={addItem}>Add Todo</button>
