@@ -122,7 +122,9 @@
         font-size: medium ;
     }
     #addButton{
-        height: 6vh;
+        width: 40%;
+        margin-right: 3px;
+        padding: 12px 3px;
     }
     .todoParent button{
         width: 30%;
